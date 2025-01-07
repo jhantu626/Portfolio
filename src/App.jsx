@@ -1,10 +1,11 @@
 import React from 'react'
-import { Navbar } from './components'
+import { HeroSlider, Navbar } from './components'
 
 const App = () => {
   return (
     <>
       <Navbar/>
+      <HeroSlider/>
     </>
   )
 }
